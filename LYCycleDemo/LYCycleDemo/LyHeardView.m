@@ -53,6 +53,11 @@
     
     CGFloat x = self.scrollView_bottom.contentOffset.x;
     
+    NSLog(@"x       %f",x);
+    
+    //让底部的红线跟着滑动
+    self.view_line.transform = CGAffineTransformMakeTranslation(x / w * 80, 0);
+    
     //注意:这里加0.5是为了避免往左一点label就去上一个了
     NSInteger num = x / w + 0.5;
     
@@ -86,7 +91,7 @@
             label.textColor = [UIColor blackColor];
         }
     }
-    self.view_line.frame = CGRectMake(num * 80, 45, 80, 5);
+//    self.view_line.frame = CGRectMake(num * 80, 45, 80, 5);
 }
 
 - (void)layoutSubviews
@@ -94,7 +99,7 @@
     [super layoutSubviews];
     
     self.scrollView.frame = self.bounds;
-    self.scrollView.contentSize = CGSizeMake(80 * self.array_name.count, 50);
+    self.scrollView.contentSize = CGSizeMake(80 * self.array_name.count, 0);
     
     for (NSInteger i = 0; i < self.array_label.count; i++)
     {
@@ -142,6 +147,7 @@
     if (!_scrollView) {
         _scrollView = [[UIScrollView alloc] init];
         _scrollView.showsHorizontalScrollIndicator = NO;
+//        _scrollView.bounces = NO;
     }
     return _scrollView;
 }

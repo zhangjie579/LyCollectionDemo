@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "IWNavigationController.h"
 #import "LyMainViewController.h"
+#import "IWTabBarViewController.h"
 
 @interface AppDelegate ()
 
@@ -23,9 +24,9 @@
     self.window.frame = [UIScreen mainScreen].bounds;
     self.window.backgroundColor = [UIColor whiteColor];
     
-    IWNavigationController *nav = [[IWNavigationController alloc] initWithRootViewController:[[LyMainViewController alloc] init]];
+//    IWNavigationController *nav = [[IWNavigationController alloc] initWithRootViewController:[[LyMainViewController alloc] init]];
     
-    self.window.rootViewController = nav;
+    self.window.rootViewController = [[IWTabBarViewController alloc] init];
     [self.window makeKeyAndVisible];
     
     return YES;

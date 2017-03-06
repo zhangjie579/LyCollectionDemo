@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FAA46381E2DC26D00A58CE9 /* IWBadgeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FAA46371E2DC26D00A58CE9 /* IWBadgeButton.m */; };
+		2FAA463B1E2DC2DB00A58CE9 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FAA463A1E2DC2DB00A58CE9 /* UIImage+Extension.m */; };
+		2FAA46401E2DC33A00A58CE9 /* IWTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FAA463D1E2DC33A00A58CE9 /* IWTabBarButton.m */; };
+		2FAA46411E2DC33A00A58CE9 /* IWTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FAA463F1E2DC33A00A58CE9 /* IWTabBar.m */; };
+		2FAA46441E2DC3DB00A58CE9 /* IWTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FAA46431E2DC3DB00A58CE9 /* IWTabBarViewController.m */; };
+		2FAA464E1E2E003C00A58CE9 /* LyMyMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FAA464D1E2E003C00A58CE9 /* LyMyMainViewController.m */; };
+		2FAA46521E2E00C600A58CE9 /* IWDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FAA46511E2E00C600A58CE9 /* IWDiscoverViewController.m */; };
+		2FAA46551E2E017E00A58CE9 /* LyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FAA46541E2E017E00A58CE9 /* LyButton.m */; };
+		2FAA465A1E2E043900A58CE9 /* LyShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FAA46591E2E043900A58CE9 /* LyShowView.m */; };
 		2FC0884C1E2CB277000135FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC0884B1E2CB277000135FA /* main.m */; };
 		2FC0884F1E2CB277000135FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC0884E1E2CB277000135FA /* AppDelegate.m */; };
 		2FC088521E2CB277000135FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC088511E2CB277000135FA /* ViewController.m */; };
@@ -60,6 +69,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2FAA46361E2DC26D00A58CE9 /* IWBadgeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWBadgeButton.h; sourceTree = "<group>"; };
+		2FAA46371E2DC26D00A58CE9 /* IWBadgeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWBadgeButton.m; sourceTree = "<group>"; };
+		2FAA46391E2DC2DB00A58CE9 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		2FAA463A1E2DC2DB00A58CE9 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		2FAA463C1E2DC33A00A58CE9 /* IWTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWTabBarButton.h; sourceTree = "<group>"; };
+		2FAA463D1E2DC33A00A58CE9 /* IWTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWTabBarButton.m; sourceTree = "<group>"; };
+		2FAA463E1E2DC33A00A58CE9 /* IWTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWTabBar.h; sourceTree = "<group>"; };
+		2FAA463F1E2DC33A00A58CE9 /* IWTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWTabBar.m; sourceTree = "<group>"; };
+		2FAA46421E2DC3DB00A58CE9 /* IWTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWTabBarViewController.h; sourceTree = "<group>"; };
+		2FAA46431E2DC3DB00A58CE9 /* IWTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWTabBarViewController.m; sourceTree = "<group>"; };
+		2FAA464C1E2E003C00A58CE9 /* LyMyMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyMyMainViewController.h; sourceTree = "<group>"; };
+		2FAA464D1E2E003C00A58CE9 /* LyMyMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyMyMainViewController.m; sourceTree = "<group>"; };
+		2FAA46501E2E00C600A58CE9 /* IWDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWDiscoverViewController.h; sourceTree = "<group>"; };
+		2FAA46511E2E00C600A58CE9 /* IWDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWDiscoverViewController.m; sourceTree = "<group>"; };
+		2FAA46531E2E017E00A58CE9 /* LyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyButton.h; sourceTree = "<group>"; };
+		2FAA46541E2E017E00A58CE9 /* LyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyButton.m; sourceTree = "<group>"; };
+		2FAA46561E2E020D00A58CE9 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2FAA46571E2E02FB00A58CE9 /* DeviceCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceCommon.h; sourceTree = "<group>"; };
+		2FAA46581E2E043900A58CE9 /* LyShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyShowView.h; sourceTree = "<group>"; };
+		2FAA46591E2E043900A58CE9 /* LyShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyShowView.m; sourceTree = "<group>"; };
 		2FC088471E2CB277000135FA /* LYCycleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYCycleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FC0884B1E2CB277000135FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2FC0884D1E2CB277000135FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -158,6 +187,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2FAA46351E2DC26000A58CE9 /* 主要(自定义tabbar) */ = {
+			isa = PBXGroup;
+			children = (
+				2FAA46421E2DC3DB00A58CE9 /* IWTabBarViewController.h */,
+				2FAA46431E2DC3DB00A58CE9 /* IWTabBarViewController.m */,
+				2FAA46361E2DC26D00A58CE9 /* IWBadgeButton.h */,
+				2FAA46371E2DC26D00A58CE9 /* IWBadgeButton.m */,
+				2FAA463C1E2DC33A00A58CE9 /* IWTabBarButton.h */,
+				2FAA463D1E2DC33A00A58CE9 /* IWTabBarButton.m */,
+				2FAA463E1E2DC33A00A58CE9 /* IWTabBar.h */,
+				2FAA463F1E2DC33A00A58CE9 /* IWTabBar.m */,
+			);
+			name = "主要(自定义tabbar)";
+			sourceTree = "<group>";
+		};
+		2FAA46451E2DCC0F00A58CE9 /* 其他 */ = {
+			isa = PBXGroup;
+			children = (
+				2FC088501E2CB277000135FA /* ViewController.h */,
+				2FC088511E2CB277000135FA /* ViewController.m */,
+				2FC0887D1E2CB305000135FA /* LyView.h */,
+				2FC0887E1E2CB305000135FA /* LyView.m */,
+				2FC088801E2CB315000135FA /* LyCollectionViewCell.h */,
+				2FC088811E2CB315000135FA /* LyCollectionViewCell.m */,
+				2FC088831E2CB32B000135FA /* LyFlowLayout.h */,
+				2FC088841E2CB32B000135FA /* LyFlowLayout.m */,
+				2FC088AA1E2CBA16000135FA /* LyHeardView.h */,
+				2FC088AB1E2CBA16000135FA /* LyHeardView.m */,
+			);
+			name = "其他";
+			sourceTree = "<group>";
+		};
+		2FAA464B1E2E001800A58CE9 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				2FAA464C1E2E003C00A58CE9 /* LyMyMainViewController.h */,
+				2FAA464D1E2E003C00A58CE9 /* LyMyMainViewController.m */,
+			);
+			name = "我的";
+			sourceTree = "<group>";
+		};
+		2FAA464F1E2E00BA00A58CE9 /* 广场 */ = {
+			isa = PBXGroup;
+			children = (
+				2FAA46531E2E017E00A58CE9 /* LyButton.h */,
+				2FAA46541E2E017E00A58CE9 /* LyButton.m */,
+				2FAA46501E2E00C600A58CE9 /* IWDiscoverViewController.h */,
+				2FAA46511E2E00C600A58CE9 /* IWDiscoverViewController.m */,
+				2FAA46581E2E043900A58CE9 /* LyShowView.h */,
+				2FAA46591E2E043900A58CE9 /* LyShowView.m */,
+			);
+			name = "广场";
+			sourceTree = "<group>";
+		};
 		2FC0883E1E2CB277000135FA = {
 			isa = PBXGroup;
 			children = (
@@ -181,27 +264,23 @@
 		2FC088491E2CB277000135FA /* LYCycleDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2FAA464F1E2E00BA00A58CE9 /* 广场 */,
+				2FAA464B1E2E001800A58CE9 /* 我的 */,
+				2FAA46451E2DCC0F00A58CE9 /* 其他 */,
+				2FAA46391E2DC2DB00A58CE9 /* UIImage+Extension.h */,
+				2FAA463A1E2DC2DB00A58CE9 /* UIImage+Extension.m */,
+				2FAA46351E2DC26000A58CE9 /* 主要(自定义tabbar) */,
 				2FC088BE1E2CCDAF000135FA /* base */,
 				2FC088BD1E2CCDA7000135FA /* 首页 */,
 				2FC088B01E2CCA3D000135FA /* 轮播器 */,
 				2FC088861E2CB354000135FA /* Masonry */,
 				2FC0884D1E2CB277000135FA /* AppDelegate.h */,
 				2FC0884E1E2CB277000135FA /* AppDelegate.m */,
-				2FC088501E2CB277000135FA /* ViewController.h */,
-				2FC088511E2CB277000135FA /* ViewController.m */,
-				2FC0887D1E2CB305000135FA /* LyView.h */,
-				2FC0887E1E2CB305000135FA /* LyView.m */,
 				2FC088531E2CB277000135FA /* Main.storyboard */,
 				2FC088561E2CB277000135FA /* Assets.xcassets */,
 				2FC088581E2CB277000135FA /* LaunchScreen.storyboard */,
 				2FC0885B1E2CB277000135FA /* Info.plist */,
 				2FC0884A1E2CB277000135FA /* Supporting Files */,
-				2FC088801E2CB315000135FA /* LyCollectionViewCell.h */,
-				2FC088811E2CB315000135FA /* LyCollectionViewCell.m */,
-				2FC088831E2CB32B000135FA /* LyFlowLayout.h */,
-				2FC088841E2CB32B000135FA /* LyFlowLayout.m */,
-				2FC088AA1E2CBA16000135FA /* LyHeardView.h */,
-				2FC088AB1E2CBA16000135FA /* LyHeardView.m */,
 			);
 			path = LYCycleDemo;
 			sourceTree = "<group>";
@@ -209,7 +288,9 @@
 		2FC0884A1E2CB277000135FA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2FAA46571E2E02FB00A58CE9 /* DeviceCommon.h */,
 				2FC0884B1E2CB277000135FA /* main.m */,
+				2FAA46561E2E020D00A58CE9 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -443,27 +524,36 @@
 				2FC088A11E2CB354000135FA /* MASConstraint.m in Sources */,
 				2FC088BC1E2CCC60000135FA /* IWNavigationController.m in Sources */,
 				2FC088B71E2CCA4A000135FA /* ShowImageCell.m in Sources */,
+				2FAA46381E2DC26D00A58CE9 /* IWBadgeButton.m in Sources */,
 				2FC088B91E2CCA4A000135FA /* ADCollectionViewFlowLayout.m in Sources */,
 				2FC088A41E2CB354000135FA /* MASViewAttribute.m in Sources */,
 				2FC088A91E2CB354000135FA /* ViewController+MASAdditions.m in Sources */,
 				2FC088A61E2CB354000135FA /* NSArray+MASAdditions.m in Sources */,
+				2FAA464E1E2E003C00A58CE9 /* LyMyMainViewController.m in Sources */,
 				2FC088CA1E2CD3AB000135FA /* LyMainFlowLayout.m in Sources */,
+				2FAA46441E2DC3DB00A58CE9 /* IWTabBarViewController.m in Sources */,
 				2FC088B81E2CCA4A000135FA /* ADPlayView.m in Sources */,
 				2FC088851E2CB32B000135FA /* LyFlowLayout.m in Sources */,
 				2FC088A51E2CB354000135FA /* MASViewConstraint.m in Sources */,
 				2FC088CD1E2CD647000135FA /* LyMainHeardCell.m in Sources */,
 				2FC088AF1E2CC90D000135FA /* LyMainViewController.m in Sources */,
 				2FC088A31E2CB354000135FA /* MASLayoutConstraint.m in Sources */,
+				2FAA46401E2DC33A00A58CE9 /* IWTabBarButton.m in Sources */,
+				2FAA463B1E2DC2DB00A58CE9 /* UIImage+Extension.m in Sources */,
+				2FAA46411E2DC33A00A58CE9 /* IWTabBar.m in Sources */,
 				2FC088521E2CB277000135FA /* ViewController.m in Sources */,
 				2FC088AC1E2CBA16000135FA /* LyHeardView.m in Sources */,
 				2FC0884F1E2CB277000135FA /* AppDelegate.m in Sources */,
 				2FC088C11E2CCDCA000135FA /* LyMainChooseBtn.m in Sources */,
 				2FC088A81E2CB354000135FA /* View+MASAdditions.m in Sources */,
+				2FAA465A1E2E043900A58CE9 /* LyShowView.m in Sources */,
 				2FC088A01E2CB354000135FA /* MASCompositeConstraint.m in Sources */,
 				2FC088A71E2CB354000135FA /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				2FC088C71E2CD281000135FA /* LyMainCollectionViewCell.m in Sources */,
 				2FC088A21E2CB354000135FA /* MASConstraintMaker.m in Sources */,
 				2FC0884C1E2CB277000135FA /* main.m in Sources */,
+				2FAA46551E2E017E00A58CE9 /* LyButton.m in Sources */,
+				2FAA46521E2E00C600A58CE9 /* IWDiscoverViewController.m in Sources */,
 				2FC088C41E2CCE12000135FA /* ButtonWithTitleLeft.m in Sources */,
 				2FC0887F1E2CB305000135FA /* LyView.m in Sources */,
 				2FC088821E2CB315000135FA /* LyCollectionViewCell.m in Sources */,
@@ -616,6 +706,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LYCycleDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = LYCycleDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bona.LYCycleDemo;
@@ -627,6 +718,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LYCycleDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = LYCycleDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bona.LYCycleDemo;
@@ -699,6 +791,7 @@
 				2FC088761E2CB277000135FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2FC088771E2CB277000135FA /* Build configuration list for PBXNativeTarget "LYCycleDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -707,6 +800,7 @@
 				2FC088791E2CB277000135FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2FC0887A1E2CB277000135FA /* Build configuration list for PBXNativeTarget "LYCycleDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -715,6 +809,7 @@
 				2FC0887C1E2CB277000135FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

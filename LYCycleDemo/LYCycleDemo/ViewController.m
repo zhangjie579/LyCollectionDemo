@@ -41,10 +41,10 @@
     }
 }
 
-- (BOOL)prefersStatusBarHidden
-{
-    return YES;
-}
+//- (BOOL)prefersStatusBarHidden
+//{
+//    return YES;
+//}
 
 //点击标签的回调
 - (void)lyHeardViewDidTapLable:(NSInteger)tag
@@ -71,6 +71,7 @@
         _scrollView.frame = CGRectMake(0, 50, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height - 50);
         _scrollView.contentSize = CGSizeMake([UIScreen mainScreen].bounds.size.width * 8, 0);
         _scrollView.pagingEnabled = YES;
+        _scrollView.bounces = NO;//滑动到边缘无弹性
     }
     return _scrollView;
 }
